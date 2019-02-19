@@ -1,6 +1,6 @@
-# Jibimba
-
-![Jibimba](./Play_Jibimba/frontend/logo-320.png)
+<p align="center"> 
+  <img src="./Play_Jibimba/frontend/logo-320.png">
+</p>
 
 To play:
 
