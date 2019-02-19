@@ -26,4 +26,6 @@ executable JibimbaFrontend
                      , ghcjs-base
                      , aeson
   default-language:    Haskell2010
-  
+  other-modules:       Model
+                     , Update
+                     , View
