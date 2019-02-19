@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:400,900&subset=latin-ext');
+
+body {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+button {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    /*color: #2C3E50;*/
+
+    font-weight: 900;
+    text-decoration: none;
+}
+
+button:focus {
+  outline:0;
+  border: none;
+}
+
+.regularButton { color: #2C3E50; }
+.regularButton:hover { color: #18BC9C; }
+.regularButton:focus { color: #18BC9C; }
+
+.backButton { color: #EC676E; /* 56 saturation */ }
+.backButton:hover { color: #DE454D; /* 69 saturation, 87 value */ }
+.backButton:focus { color: #DE454D; /* 69 saturation, 87 value */ }
+
+.forwardButton { color: #18BC9C; /* 87 saturation */ }
+.forwardButton:hover { color: #00A684; /* 100 saturation, 65 value */ }
+.forwardButton:focus { color: #00A684; /* 100 saturation, 65 value */ }
+
+.rulesButton {
+  color: #2C3E50;
+  width: 50%;
+  text-align: center;
+}
+.rulesButton:hover { color: #18BC9C; }
+.rulesButton:focus { color: #18BC9C; }
+
+
+.mainDiv {
+    max-width: 320px;
+    height: 480px;
+
+    font-size: 150%;
+    text-align: center;
+}
+
+.mainMenuList {
+  list-style:none;
+  padding-left:0;
+  line-height: 1.6em;
+  font-size: 200%;
+  text-align: center;
+}
+
+.bottomButtons {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 320px;
+  font-size: 120%;
+}
+
+.syntagma {
+  color: #2C3E50;
+  font-weight: 900;
+  line-height: 1.6em;
+  font-size: 200%;
+  text-align: center;
+
+}
+
+.sredina {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.settings {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 320px;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+li {
+  text-align: center;
+}
+
+input[type=text] {
+    height: 35px;
+    width: 90%;
+    font-size: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=number]{
+  height: 35px;
+  width: 60px;
+  font-size: 90%;
+  padding: 2px 2px;
+  box-sizing: border-box;
+}
