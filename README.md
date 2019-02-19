@@ -1,5 +1,7 @@
 # Jibimba
 
+![Jibimba](./Play_Jibimba/frontend/logo-320.png)
+
 To play:
 
 1. Go to the Play_Jibimba folder
