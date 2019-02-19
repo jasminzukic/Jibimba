@@ -2,7 +2,7 @@ name:                JibimbaFrontend
 version:             0.1.0.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/jasminzukic/JibimbaFrontend#readme
+homepage:            https://github.com/jasminzukic/Jibimba/JibimbaFrontend#readme
 license:             BSD3
 license-file:        LICENSE
 author:              Jasmin Zukić
@@ -14,7 +14,16 @@ cabal-version:       >=1.10
 extra-source-files:  README.md
 
 executable JibimbaFrontend
-  hs-source-dirs:      src
   main-is:             Main.hs
+  hs-source-dirs:      src
+  cpp-options:         -DGHCJS_BROWSER
+  ghc-options:         -dedupe
+  build-depends:       base
+                     , containers
+                     , miso
+                     , random
+                     , random-shuffle
+                     , ghcjs-base
+                     , aeson
   default-language:    Haskell2010
-  build-depends:       base >= 4.7 && < 5
+  
